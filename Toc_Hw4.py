@@ -73,6 +73,6 @@ for road in roadDict:
 		maxRoad.append(road)
 
 for road in maxRoad:
-	print "%s, 最高成交價:%d, 最低成交價:%d" %(road, roadDict[road]['maxPrice'], roadDict[road]['minPrice'])
-
+	print "%s, 最高成交價: %d, 最低成交價: %d" %(road, roadDict[road]['maxPrice'], roadDict[road]['minPrice'])
+	print roadDict[road]['count']
 
