@@ -75,7 +75,4 @@ for road in roadDict:
 for road in maxRoad:
 	print "%s, 最高成交價:%d, 最低成交價:%d" %(road, roadDict[road]['maxPrice'], roadDict[road]['minPrice'])
 
-#index = roadDict.find(maxRoad)
-#print maxRoad
-#print "最高成交價: %d" %(roaDict[index]
 
